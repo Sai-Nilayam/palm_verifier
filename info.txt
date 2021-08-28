@@ -1,1 +1,10 @@
 Verifying Palms using Machine Learning.
+
+Explanation of different folders in the project
+-----------------------------------------------
+1. data - To store all the data with a well structured manner. 
+2. data_raw - Contains all the raw_data.
+3. info.txt - Contains information about the project. 
+4. research_iterations.txt - contains all the histories of the research we made  
+so far. 
+5. analysis_x.ipynb - Contains research of x-th time.
