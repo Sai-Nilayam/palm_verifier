@@ -13,24 +13,18 @@ print('The script starts.')
 import time
 
 tik = time.time()
+print(tik)
 
 import os
 import cv2
 
-input_message = 'Enter the following details with space separated format. \n' \
-    'Source Directory path, Destination Directoy path, Image Size in ' \
-    'Width*Height \n'
+source_path = input('Enter the Source Directory path: ')
+destination_path = input('Enter the Destination Directory path: ')
 
-input_str = input(input_message)
-input_str_splitted = input_str.split(' ')
-
-source_path = input_str_splitted[0]
-destination_path = input_str_splitted[1]
-
-size = input_str_splitted[2]
+size = input('Enter the Size in Width*Height format: ')
 size_splitted = size.split('*')
-size_width = size_splitted[0]
-size_height = size_splitted[1]
+size_width = int(size_splitted[0])
+size_height = int(size_splitted[1])
 
 # Listing all the files from the Source Directory
 files = os.listdir(source_path)
@@ -53,6 +47,8 @@ for file in files:
     cv2.imwrite(file_saving_path, inst_img_resized)
 
 tok = time.time()
-time_taken = tok - tik
+print(tok)
+
+time_taken = (tok - tik) * (10 ** (-1))
 
 print('Script ends. Took {} seconds.'.format(time_taken))
