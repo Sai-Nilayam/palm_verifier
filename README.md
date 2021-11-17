@@ -1,3 +1,5 @@
+Also Checkout at http://aiwebsites.in/palm_verifier
+
 This is a Palm Verifier Application. The way it is used is, the takes input of 
 two different Palms images. If both the palm images are of Same Person 
 (of the Same hand), then our Model will say '1'. If two Palm Images are of 
@@ -11,11 +13,11 @@ Images and run the respective cells to get the output.
 
 For this Project no HTTP APIs are provided right now. 
 
-This project runs with 100% accuracy. I made this Project by Implementing a 
+This project runs with 100% accuracy on the we have. I made this Project by Implementing a 
 Siamese Network Achitecture but without a Triplet Loss. Rather I used my own 
 Intuitions and get up with a different Simplified Architecture.
 
-Note: This Network is a Real life usable Model. And all it has been trained is 
+Note: This Network is a Real life usable Model by fine tuning on more data. And all it has been trained is 
 just by 16 Different Palm images taken of 8 Different Persons living with me
 in my PG at Bangalore, Karnatak, India.
 
