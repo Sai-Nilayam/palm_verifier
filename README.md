@@ -1,6 +1,6 @@
 Also Checkout at http://aiwebsites.in/palm_verifier
 
-This is a Palm Verifier Application. The way it is used is, the takes input of 
+This is a Palm Verifier Application. The way it is used is, it takes input of 
 two different Palms images. If both the palm images are of Same Person 
 (of the Same hand), then our Model will say '1'. If two Palm Images are of 
 different Persons, then Model will say '0'.
@@ -8,8 +8,8 @@ different Persons, then Model will say '0'.
 Usage
 -----
 Right now all you can do is, take a look at 'machine_learning.ipynb' file and 
-edit the at where Tesing Phase of the Model is by providing two different Palm
-Images and run the respective cells to get the output.
+edit the at where Testing Phase of the Model is by providing two different Palm
+Images and run the respective cells to get the output or use our website to test with your own palm as instructed.
 
 For this Project no HTTP APIs are provided right now. 
 
